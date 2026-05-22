@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Number Gussing Game</h1>
+    </header>
+    <main>
+        <section>
+            <div id="theBox">
+                <p>I picked a number from 1 to 10. You have 3 tries.
+
+    </p>
+                <label >Enter your guess Number:</label>
+                
+                <input type="number" name="Your Guess"  placeholder="Enter your guess" id="guessWithYourOwnNumber" min="1" max="10">
+                    <br><br>
+            
+                <button type="button" onclick="clickYourButton()">Guess</button>
+                <button type="button" onclick="resetButton()">New Game</button>
+                <br><br>
+                <div id="boxTwo">
+                    <p id="yourResult"></p>
+                    <p id="attempts">attempt left: </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <script src="index.js"></script>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,73 @@
+
+/*body {
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    font: 22px;
+    text-align: center;
+}
+button {
+    background-color: rgb(230, 197, 149);
+    color: black;
+    border-radius: 10px;
+    width: 80px;
+    padding: 8px;
+}*/
+body {
+    font-family: sans-serif;
+    font-size: 22px;  /* better than font: 22px */
+    text-align: center;
+    display: flex;       /* to use align-items & justify-content */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;   /* center vertically */
+    color: #fff;
+    background-color: #415254; /* optional light background */
+}
+
+button {
+    background-color: rgb(230, 197, 149);
+    color: black;
+    border-radius: 10px;
+    width: 200px;  /* slightly bigger */
+    padding: 10px;
+    cursor: pointer;  /* shows pointer on hover */
+    border: none;
+    font-size: 16px;
+    margin: 5px;
+    margin-top: 20px;
+}
+input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px;
+    width: 190px;
+}
+#theBox {
+    background-color: #63517fc4;
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    border: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+#boxTwo {
+    background-color: #9e94b0cd;
+    color: black;
+    width: 400px;
+    border-radius: 10px;
+    padding: 4px;
+    margin-top: 10px;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    height: 50px;
+}
